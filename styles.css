@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
@@ -27,6 +27,26 @@ nav ul li a {
     text-decoration: none;
 }
 
+#hero {
+    background: url('your-hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.btn {
+    background-color: #ff4081;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff79b0;
+}
+
 section {
     padding: 20px;
     margin: 10px;
@@ -36,6 +56,28 @@ section {
 
 h2 {
     color: #4CAF50;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 form {
@@ -51,6 +93,8 @@ form input {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
 form button {
@@ -59,6 +103,7 @@ form button {
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 form button:hover {
