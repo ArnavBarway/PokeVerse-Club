@@ -2,11 +2,11 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f3f4f6;
+    background-color: #f5f5f5; /* Light gray background */
 }
 
 header {
-    background-color: #3b4cca; /* Pokémon blue */
+    background-color: #003366; /* Dark Blue */
     color: white;
     padding: 20px;
     text-align: center;
@@ -28,15 +28,15 @@ nav ul li a {
 }
 
 #hero {
-    background: url('your-hero-image.jpg') no-repeat center center/cover;
+    background-color: #cc0000; /* Red */
     color: white;
     text-align: center;
     padding: 100px 20px;
 }
 
 .btn {
-    background-color: #ffcc00; /* Pokémon yellow */
-    color: #3b4cca; /* Pokémon blue */
+    background-color: #ffffff; /* White */
+    color: #003366; /* Dark Blue */
     padding: 15px 30px;
     text-decoration: none;
     border-radius: 5px;
@@ -44,7 +44,7 @@ nav ul li a {
 }
 
 .btn:hover {
-    background-color: #ffdb33; /* Lighter Pokémon yellow */
+    background-color: #e6e6e6; /* Light gray on hover */
 }
 
 section {
@@ -55,7 +55,7 @@ section {
 }
 
 h2 {
-    color: #3b4cca; /* Pokémon blue */
+    color: #003366; /* Dark Blue */
     text-align: center;
 }
 
@@ -78,7 +78,7 @@ h2 {
 
 .card:hover {
     transform: scale(1.05);
-    border-color: #ffcc00; /* Highlight on hover */
+    border-color: #cc0000; /* Red highlight on hover */
 }
 
 form {
@@ -100,7 +100,7 @@ form input {
 
 form button {
     padding: 10px;
-    background-color: #3b4cca; /* Pokémon blue */
+    background-color: #003366; /* Dark Blue */
     color: white;
     border: none;
     cursor: pointer;
@@ -108,13 +108,13 @@ form button {
 }
 
 form button:hover {
-    background-color: #2a3b7f; /* Darker blue on hover */
+    background-color: #002244; /* Darker Blue on hover */
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #3b4cca; /* Pokémon blue */
+    background-color: #003366; /* Dark Blue */
     color: white;
     position: relative;
     bottom: 0;
